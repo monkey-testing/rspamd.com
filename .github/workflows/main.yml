@@ -20,9 +20,6 @@ jobs:
       - run: ./node_modules/.bin/stylelint ./**/*.css ./**/*.html ./**/*.js
 
   build:
-    permissions:
-      pages: write
-      id-token: write
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
