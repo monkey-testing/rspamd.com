@@ -2,7 +2,6 @@
 layout: home
 title: Rspamd spam filtering system
 ---
-<!-- trigger build -->
 <div class="container-fluid d-flex flex-column p-0" style="height: calc(100vh - var(--navbar-height));">
 	<div class="r-banner d-flex flex-grow-1 align-items-center">
 		<div class="container text-center py-5">
